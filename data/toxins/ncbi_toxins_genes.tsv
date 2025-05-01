@@ -1,0 +1,3 @@
+Accession	Begin	End	Chromosome	Orientation	Name	Symbol	Gene ID	Gene Type	Transcripts accession	Transcript name	Protein accession	Protein name	Protein length	Locus tag
+NZ_CP076401.1	734255	741355		plus	glycosylating toxin TcdB	tcdB	66353157	protein-coding			WP_009895693.1	glycosylating toxin TcdB	2366	KNZ77_RS03595
+NZ_CP076401.1	742705	750837		plus	glycosylating toxin TcdA	tcdA	66353160	protein-coding			WP_021377821.1	glycosylating toxin TcdA	2710	KNZ77_RS03610

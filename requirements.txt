@@ -1,0 +1,5 @@
+Biopython==1.83
+Pandas==2.1.4
+Seaborn==0.13
+Matplotlib==3.6.3
+

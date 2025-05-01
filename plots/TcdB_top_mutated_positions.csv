@@ -1,0 +1,11 @@
+Position,Reference_Base,Mutation_Frequency_%,Mutations_Observed
+3813,g,82.29,a
+2151,a,77.14,g;t
+6852,t,77.14,a;g
+7577,g,70.86,t
+1092,c,66.86,t
+6723,t,66.86,a
+3045,g,65.14,a;t
+551,t,65.14,c
+2978,g,65.14,a
+527,c,65.14,t

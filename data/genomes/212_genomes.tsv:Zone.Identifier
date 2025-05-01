@@ -1,0 +1,3 @@
+[ZoneTransfer]
+ZoneId=3
+HostUrl=https://api.ncbi.nlm.nih.gov/datasets/v2/genome/dataset_report?filename=212_genomes.tsv&ncbi_phid=322CB51146EE514500005275D49038D4.1.m_3.036
