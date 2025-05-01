@@ -33,5 +33,5 @@ This project used the following tools:
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/your-username/cdiff-toxin-polymorphism.git
-cd cdiff-toxin-polymorphism
+[git clone https://github.com/ZanderKain/cdiff_project.git
+cd cdiff_project
