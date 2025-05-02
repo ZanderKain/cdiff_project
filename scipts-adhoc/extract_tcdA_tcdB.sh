@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#Set the directory where your 212 genomes are located
+#Set the directory where the 212 genomes are located
 GENOME_DIR="../data/genomes/cdiff_complete/ncbi_dataset/data"
 TOXIN_DIR="../data/toxins/extracted"
 

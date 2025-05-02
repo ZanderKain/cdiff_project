@@ -33,5 +33,49 @@ This project used the following tools:
 1. Clone this repository:
 
 ```bash
-[git clone https://github.com/ZanderKain/cdiff_project.git
+git clone https://github.com/ZanderKain/cdiff_project.git
 cd cdiff_project
+```
+
+2. Activate your environment (optional but recommended):
+```bash
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+3. Extract TcdA and TcdB gene from the 212 GCF fasta files given the reference genome's coords for both toxin genes
+```bash
+bash scipts-adhoc/extract_tcdA_tcdB.sh
+```
+
+4. Combines all fasta sequences generated from the previous step to be in one master fasta file for each toxin (A & B):
+```bash
+bash scipts-adhoc/combine_sequences.sh
+```
+
+5. Run python script to then clean the extracted fasta sequences to remove duplicates and leaving only the longest/most likely toxin sequence for each asseccion ID:
+```bash
+python scipts-adhoc/clean_extracted_toxins.py
+```
+
+6. Run alignment (if starting from raw sequences):
+```bash
+bash scipts-adhoc/align_clean_sequences.sh
+```
+
+7. Run detect polymorphism script:
+```bash
+bash scipts-adhoc/detect_polymorphisms.py
+```
+
+8. Run mutation frequency analysis: *CHECK ON THIS LATER*
+```bash
+bash scipts-adhoc/mutation_freq_analysis.py
+```
+
+9. Can run visualization scripts:
+```bash
+python scipts-adhoc/mutation_density_curve.py
+python scipts-adhoc/visualization_mutations_freq.py
+python scipts-adhoc/dual_mutation_dense_plot.py
