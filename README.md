@@ -69,7 +69,7 @@ bash scipts-adhoc/align_clean_sequences.sh
 bash scipts-adhoc/detect_polymorphisms.py
 ```
 
-8. Run mutation frequency analysis: *CHECK ON THIS LATER*
+8. Run mutation frequency analysis: 
 ```bash
 bash scipts-adhoc/mutation_freq_analysis.py
 ```
